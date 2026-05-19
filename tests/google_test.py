@@ -7,6 +7,7 @@ class TestGoogle:
             page = browser.new_page()
         
             page.goto("https://google.com")
+            
             print(page.title())
         
             assert "Google" in page.title()

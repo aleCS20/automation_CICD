@@ -1,4 +1,4 @@
-from tests.arquivo_test import TestGoogle
+from tests.google_test import TestGoogle
 
 def main():
     rpa = TestGoogle()
